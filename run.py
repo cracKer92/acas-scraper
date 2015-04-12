@@ -30,7 +30,7 @@ def scrape():
         'iColumns': 8,
         'sColumns': '',
         'iDisplayStart':0,
-        'iDisplayLength':10,
+        'iDisplayLength':685,
         'mDataProp_0':0,
         'mDataProp_1':1,
         'mDataProp_2':2,
@@ -82,6 +82,7 @@ def scrape():
         }
 
         db.javnenabavke.insert(doc)
+        print data[0],data[1], data[2], data[3], data[4], data[5], data[6]
                     
 
             
